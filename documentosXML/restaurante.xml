@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<restaurante ciudad="Neuquen" nombre="El Café de Galileo">
+    <menu>
+        <producto id="1" tipo="bebida">
+            <nombre>Café con leche</nombre>
+            <precio>1.20</precio>
+        </producto>
+        <producto id="2" tipo="bebida">
+            <nombre>Café solo</nombre>
+            <precio>1.00</precio>
+        </producto>
+        <producto id="3" tipo="comida">
+            <nombre>Criollitos</nombre>
+            <precio>0.30</precio>
+        </producto>
+        <producto id="4" tipo="comida">
+            <nombre>Medialuna</nombre>
+            <precio>0.80</precio>
+        </producto>
+    </menu>
+    <pedido estado="Entregado" id="orden:1">
+        <cliente>Carlos Pérez</cliente>
+        <items_pedidos>Café solo y criollitos</items_pedidos>
+        <total>1.30</total>
+    </pedido>
+    <pedido estado="Preparando" id="orden:2">
+        <cliente>Laura Diale</cliente>
+        <items_pedidos>Café con leche y medialuna</items_pedidos>
+        <total>2.0</total>
+    </pedido>
+</restaurante>
