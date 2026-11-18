@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <biblioteca>
+        
     <libro isbn="978-65-321">
+                
         <titulo>Libro 1</titulo>
+                
         <precio>12.50</precio>
+            
     </libro>
+        
     <libro isbn="978-65-123">
+                
         <titulo>Libro 2</titulo>
+                
         <precio>12.50</precio>
+            
     </libro>
+        
     <libro isbn="978-65-213">
+                
         <titulo>Libro 3</titulo>
+                
         <precio>12.50</precio>
+            
     </libro>
+    
 </biblioteca>
