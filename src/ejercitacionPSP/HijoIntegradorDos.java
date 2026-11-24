@@ -39,12 +39,16 @@ public class HijoIntegradorDos {
 			
 			System.exit(0);
 		}else {
-			if(!Files.exists(f))
+			if(!Files.exists(f)) {
 				System.err.println(LocalDate.now()+" Error detectado: el fichero no existe.");
-			System.exit(2);
-			if(variableEntorno.equals("No definida"))
+				System.exit(2);
+			}
+				
+			if(variableEntorno.equals("No definida")) {
 				System.err.println(LocalDate.now()+" Error detectado: la variable de entorno no existe.");
 				System.exit(2);
+			}
+				
 		}
 		
 	}

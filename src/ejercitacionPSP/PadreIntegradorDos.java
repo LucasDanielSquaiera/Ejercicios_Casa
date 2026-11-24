@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 
 public class PadreIntegradorDos {
 	public static void main(String[] args){
@@ -15,7 +16,7 @@ public class PadreIntegradorDos {
 			Process hijo = pb.start();
 			
 			
-			BufferedReader lector = new BufferedReader(new InputStreamReader(hijo.getInputStream()));
+			BufferedReader lector = new BufferedReader(new InputStreamReader(hijo.getInputStream(),StandardCharsets.UTF_8));
 			String respuesta;
 			while((respuesta = lector.readLine())!= null) {
 				System.out.println(respuesta);
